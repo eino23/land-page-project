@@ -38,9 +38,9 @@ nav a{
 }
 .navigation {
     margin-top: 2%;
-    position:absolute;
+    position: absolute;
     right: 0;
-
+    margin-left: 300px;
 }
 .heroHead {
     font-size: 48px;
@@ -57,12 +57,10 @@ nav a{
 }
 .dogImage{
     margin-left: 100%;
-    margin-top: -35%;
-    display:flex;
-    align-items: flex-start;
+    margin-top: -40%;
 }
 .dogImage img {
-    height: 350px;
+    height: 400px;
     width: 700px;
 }
 button {
@@ -94,6 +92,22 @@ button {
     align-items: center;
 }
 .dogPictures img {
-    width: 300px;
+    width: 250px;
     height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 12px;
+    margin-bottom: 150px;
+}
+.lowerLevel2 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+
+}
+.motivationText {
+    margin-left: 500px;
+    margin-right: 500px;
 }
