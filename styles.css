@@ -19,11 +19,6 @@ body {
     background-color: #1f2937 ;
     position: relative;
 }
-.kakka {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .headerLogo {
     font-size: 24px;
     color: #f9faf8;
@@ -35,12 +30,14 @@ nav a{
     font-size: 18px;
     text-decoration: none;
     margin-right: 20px;
+    
 }
 .navigation {
-    margin-top: 2%;
     position: absolute;
-    right: 0;
-    margin-left: 300px;
+    margin-left: 1100px;
+    display: flex;
+    margin-top: 10px;
+    gap: 3em;
 }
 .heroHead {
     font-size: 48px;
@@ -105,9 +102,21 @@ button {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-
 }
 .motivationText {
     margin-left: 500px;
     margin-right: 500px;
+}
+.quote {
+    margin-left: 300px;
+}
+.imgText {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+.imgText p{
+    margin-top: -150px;
+    margin-bottom: 60px;
+    max-width: 250px;
 }
