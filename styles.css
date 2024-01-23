@@ -1,5 +1,8 @@
-.upperColor {
+* {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.upperColor {
     background-color: #1f2937 ;
 }
 body {
@@ -14,6 +17,7 @@ body {
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #1f2937 ;
+    position: relative;
 }
 .kakka {
     display: flex;
@@ -34,6 +38,9 @@ nav a{
 }
 .navigation {
     margin-top: 2%;
+    position:absolute;
+    right: 0;
+
 }
 .heroHead {
     font-size: 48px;
@@ -50,13 +57,13 @@ nav a{
 }
 .dogImage{
     margin-left: 100%;
-    margin-top: -47%;
+    margin-top: -35%;
     display:flex;
     align-items: flex-start;
 }
 .dogImage img {
     height: 350px;
-    width: 550px;
+    width: 700px;
 }
 button {
     background-color: #3882f6;
@@ -68,10 +75,25 @@ button {
     width: 180px;
     height: 50px;
     margin-left: 5px;
+    margin-bottom: 100px;
 }
 
 .lowerLevel1 {
     font-size: 36px;
     font-weight: bolder;
     background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.dogPictures{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dogPictures img {
+    width: 300px;
+    height: 200px;
 }
