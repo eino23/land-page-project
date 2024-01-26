@@ -4,11 +4,9 @@
 }
 .upperColor {
     background-color: #1f2937 ;
+    min-height: 100vh;
 }
 body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
 }
 .upper {
     margin-left: 17%;
