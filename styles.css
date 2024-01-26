@@ -34,10 +34,12 @@ nav a{
 }
 .navigation {
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 600px;
     display: flex;
     margin-top: 10px;
-    gap: 3em;
+    gap: 2em;
+    white-space: nowrap;
+    margin-top: 2%;
 }
 .heroHead {
     font-size: 48px;
@@ -111,12 +113,26 @@ button {
     margin-left: 300px;
 }
 .imgText {
-    text-align: center;
-    font-size: 27px;
-    margin-bottom: 5px;
 }
 .imgText p{
     margin-top: -150px;
     margin-bottom: 60px;
-    max-width: 250px;
+    font-size: 27px;
+    max-width: 257px;
+
+}
+.lowerLevel3 {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+}
+h3,
+.signUpText {
+    text-align: center;
+}
+.signUp2 {
+    margin-left: 1300px;
+    margin-top: -70px;
+    border-width: 10px;
+    border-color: white;
 }
